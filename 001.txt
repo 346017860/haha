@@ -1,0 +1,16 @@
+generate_path();
+path[1]=path[0]+Vector3f(1.0f,0,0)*radius_cm;
+path[2]=path[0]+Vector3f(-cosf(radius(36.0f)),-sinf(radius(36.0f)),0)*radius_cm;
+path[3]=path[0]+Vector3f(sinf(radius(18.0f)),cosf(radius(18.0f)),0)*radius_cm;
+path[4]=path[0]+Vector3f(sinf(radius(18.0f)),-cosf(radius(18.0f)),0)*radius_cm;
+path[5]=path[0]+Vector3f(-cosf(radius(36.0f)),sinf(radius(36.0f)),0)*radius_cm;
+path[6]=path[1];
+
+if(path_num<6){
+         if(up_raw>reach_wp_destination（）){
+                path_num++;
+                up_raw_set_up_destination(path(path_num),false);
+                         
+         }
+      
+}
